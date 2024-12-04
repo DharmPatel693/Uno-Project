@@ -157,7 +157,7 @@ public void play() {
                 nextPlayer.drawCard(deck.draw());
                 break;
             case WILD:
-                System.out.println("Wild card played! Choose a new color (not implemented).");
+                System.out.println("Wild card played! Choose a new color.");
                 // Add logic for choosing a color
                 break;
             case WILD_DRAW_FOUR:
